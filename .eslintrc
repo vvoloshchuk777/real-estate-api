@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "google",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2022, // or another version that supports the import/export syntax
+    "sourceType": "module" // this is required to allow the use of import/export syntax
+  },
+  "rules": {
+    "require-jsdoc": "off",
+    "new-cap": "off",
+    "prettier/prettier": [
+      "error"
+    ]
+  }
+}
